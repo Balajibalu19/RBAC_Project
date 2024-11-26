@@ -22,7 +22,7 @@ To get started, clone the repository to your local machine:
 ```bash
 1. https://github.com/Balajibalu19/RBAC_Project
 
-2. cd RBAC_Project
+2. cd rbac_ui
 
 3. npm install
 
