@@ -21,3 +21,6 @@ To get started, clone the repository to your local machine:
 
 ```bash
 https://github.com/Balajibalu19/RBAC_Project
+
+```bash
+Navigate into the project directory:
