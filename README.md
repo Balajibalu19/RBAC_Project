@@ -20,7 +20,10 @@ This is a Role-Based Access Control (RBAC) Admin Dashboard built with React.js, 
 To get started, clone the repository to your local machine:
 
 ```bash
-https://github.com/Balajibalu19/RBAC_Project
+1. https://github.com/Balajibalu19/RBAC_Project
 
-```bash
-Navigate into the project directory:
+2. cd RBAC_Project
+
+3. npm install
+
+4. npm start
