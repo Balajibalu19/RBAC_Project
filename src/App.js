@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link, useLocation } from "react-router-dom"; // Change to HashRouter
 import UserManagement from "./components/UserManagement";
 import RoleManagement from "./components/RoleManagement";
 import PermissionManagement from "./components/PermissionManagement";
@@ -48,7 +48,7 @@ function Navigation() {
 
 function App() {
   return (
-    <Router>
+    <Router> {/* Use HashRouter here */}
       <div className="min-h-screen bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 p-8">
         <div className="container mx-auto bg-white p-6 rounded-xl shadow-lg">
           <h1 className="text-4xl font-bold text-center text-gray-800 mb-10">
@@ -71,6 +71,7 @@ function App() {
 }
 
 export default App;
+
 
 
 
